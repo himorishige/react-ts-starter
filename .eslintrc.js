@@ -60,7 +60,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-unused-vars': [
-      'error',
+      'warn',
       {
         vars: 'all',
         args: 'after-used',
@@ -101,6 +101,7 @@ module.exports = {
         explicitSpread: 'ignore',
       },
     ],
+    'import/prefer-default-export': 'off',
     'react/react-in-jsx-scope': 'off',
     'simple-import-sort/imports': 'error',
   },
